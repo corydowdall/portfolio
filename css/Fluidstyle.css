@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {font-family: sans-serif; src: url('Berthold Akzidenz Grotesk BE Regular.ttf'); }
+	#header-1, #header-2, a, #footer, h2{
+		font-family: sans-serif;
+		color:#151515;
+	}
+	
+@font-face {font-family: sans-serif; src: url('HelveticaNeueLTCom-Roman.ttf'); }
+      P{
+		  font-family: sans-serif;
+		  color:#151515;
+	  }
+
+.fluid-body{
+	width:100%;
+	background:#ffdd22;
+}
+
+#footer{
+	position:fixed;
+	height:40px;
+	width:900px;
+	padding:10px;
+	margin: 10px;
+	margin-left:50px;
+	bottom:-20px;
+	left:-50px;
+	background:#ffdd22;
+}
+
+#header-1{
+	height: 187;
+	padding: 6%;
+	margin: 10px;
+	font-size:80px;	
+}
+
+#header-2{
+	height: px;
+	padding: 10px;
+	margin:30px;
+	margin-left:7px;
+	font-size:80px;	
+}
+
+li{
+	display:inline;
+	padding:5px;
+}
+
+a{
+	text-decoration:none;
+	margin:8px;
+	font-size:30px;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#container{
+	margin:30px;
+	position:relative;
+	top:50px;	
+	right:60px;
+}
+
+.des-column3 {
+	wdith:31.3%;
+	margin:1%;
+	background:#CCC;
+	position:relative;
+	left:5%;
+	display:inline-block;
+}
+
+.des-column4 {
+	wdith:31.3%;
+	margin:1%;
+	background:#CCC;
+	position:relative;
+	left:5%;
+	display:inline-block;
+}
